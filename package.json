@@ -1,0 +1,24 @@
+{
+  "name": "kb-sw-contest_givemepill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimJinSeong-Git/KB-SW-Contest_GiveMePill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimJinSeong-Git/KB-SW-Contest_GiveMePill/issues"
+  },
+  "homepage": "https://github.com/KimJinSeong-Git/KB-SW-Contest_GiveMePill#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
