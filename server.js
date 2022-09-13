@@ -7,7 +7,11 @@ app.listen(8080, function () {
 }); 
 
 app.use(express.static(path.join(__dirname, 'front-home/build')));
+app.use(express.static(path.join(__dirname, 'front-admin/build')));
 
 app.get('/', function (request, response) {
   response.sendFile(path.join(__dirname, '/front-home/build/index.html'));
+});
+app.get('/admin', function (request, response) {
+  response.sendFile(path.join(__dirname, '/front-admin/build/index.html'));
 });
